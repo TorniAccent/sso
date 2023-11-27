@@ -1,7 +1,9 @@
-package sso
+package main
+
+import "sso/internal/config"
 
 func main() {
-	// TODO: initialize config
+	cfg := config.MustLoad()
 
 	// TODO: initialize logger
 
